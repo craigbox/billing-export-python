@@ -13,78 +13,13 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-body {
-    font-family: 'Arvo', serif;
-    font-size: 14px;
-}
 
 main {
-    padding-top: 60px;
+    padding-top: 70px;
 }
 
-.container {
-    width: 80%;
-}
-
-.well {
-    background-color: #fff;
-    padding-top: 20px;
-}
-
-.nav {
-    font-size: 14px;
-}
-
-h1 {
-    font-size: 48px;
-    margin-top: 0px;
-}
-
-.navbar-inverse {
-    background-color: #f1f1f1;
-    border-color: #f1f1f1;
-}
-
-.navbar-inverse .navbar-nav>li>a {
-    color: #404040;
-}
-
-.navbar-inverse .navbar-nav>li>a:hover {
-    color: #000;
-}
-
-#alert-actions {
-    padding-top: 10px;
-    padding-bottom: 20px;
-}
-
-.control-label {
-    text-align:left;
-    width: 60px;
-}
-
-.form {
-    padding-top: 20px;
-    padding-bottom: 10px;
-}
-
-.form-btn-offset {
-    padding-left: 5px;
-}
-
-.btn-primary {
-    background-color: #d14836;
-    border-color: #d14836;
-    background-image: -webkit-linear-gradient(top,#dd4b39,#d14836);
-    background-image: linear-gradient(top,#dd4b39,#d14836);
-    color: #fff;
-}
-
-.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary {
-    color: #fff;
-    background-color: #d14836;
-    border-color: #d14836;
-    background-image: none;
+.top-buffer {
+    margin-top: 20px; 
 }
 
 .loading-container {
@@ -105,10 +40,6 @@ h1 {
     margin-left: -32px;
     margin-top: -32px;
     display: block;
-}
-
-.well {
-    background-color: white;
 }
 
 .unsubscribe-true {
